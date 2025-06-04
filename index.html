@@ -1,10 +1,10 @@
 
-<html>
+<html style="height: 100%; overflow: auto;>
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
     <meta name="color-scheme" content="light dark" />
     <title>TNC</title>
     <script>
@@ -20,8 +20,8 @@
     </script>
     <style>
         :root {
-      color-scheme: light dark;
-    }
+            color-scheme: light dark;
+        }
         .tnc-header {
             font-size: 32px;
             font-weight: 700;
@@ -70,6 +70,14 @@
 
         .android {
             font-family: "Roboto", sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 0;
+            padding: 0;
         }
 
         @media (prefers-color-scheme: dark) {
